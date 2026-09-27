@@ -1,0 +1,24 @@
+{
+  "name": "dsh-restart-button",
+  "version": "0.1.0",
+  "description": "DSH Web 界面「设置」按钮右侧的重启按钮：一键重启 dsh web 服务，页面自动恢复",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "restart"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
