@@ -16,7 +16,7 @@ DSH Web 界面「设置」按钮右侧的一键重启按钮。点击后重启 `d
 dsh plugin --profile web add link:.
 
 # 方式二：直接装 GitHub 仓库
-dsh plugin --profile web add github:<你的用户名>/dsh-restart-button
+dsh plugin --profile web add github:xinshang777/dsh-restart-button
 ```
 
 安装后重启 `dsh web`，F5 即可看到「设置」旁的按钮。
